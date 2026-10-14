@@ -949,7 +949,6 @@ table tbody tr:nth-child(even) {
   margin: 0 0 22px;
 }
 
-/* Author details */
 .testimonial-author {
   margin-top: auto;
 }
@@ -1010,7 +1009,7 @@ table tbody tr:nth-child(even) {
     font-size: 17px;
   }
 }
-/* FAQ Section */
+
 .faq-section {
   background: #f3f4f6;
   padding: 70px 20px 30px;
@@ -1022,7 +1021,6 @@ table tbody tr:nth-child(even) {
   margin: 0 auto;
 }
 
-/* Title */
 .faq-title {
   text-align: center;
   margin-bottom: 42px;
@@ -1044,14 +1042,12 @@ table tbody tr:nth-child(even) {
   margin: 18px auto 0;
 }
 
-/* FAQ List */
 .faq-list {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
 
-/* FAQ Card */
 .faq-item {
   background: #fff;
   padding: 22px 24px;
@@ -1064,7 +1060,6 @@ table tbody tr:nth-child(even) {
   box-shadow: 0 7px 20px rgba(0, 0, 0, 0.1);
 }
 
-/* Question */
 .faq-item summary {
   color: var(--primary, #197663);
   font-size: 20px;
@@ -1076,12 +1071,10 @@ table tbody tr:nth-child(even) {
   padding-left: 0;
 }
 
-/* Remove default arrow */
 .faq-item summary::-webkit-details-marker {
   display: none;
 }
 
-/* Custom arrow */
 .faq-item summary::before {
   content: "▼";
   position: absolute;
@@ -1095,7 +1088,6 @@ table tbody tr:nth-child(even) {
   transform: rotate(-90deg);
 }
 
-/* Answer */
 .faq-item p {
   color: #68778b;
   font-size: 19px;
@@ -1163,7 +1155,7 @@ table tbody tr:nth-child(even) {
     font-size: 15px;
     line-height: 1.8;
   }
-} /* ===== Contact Section ===== */
+} 
 .contact-section {
   direction: rtl;
   width: 100%;
@@ -1185,7 +1177,6 @@ table tbody tr:nth-child(even) {
   margin: 0 auto;
 }
 
-/* ===== Header ===== */
 .contact-header {
   text-align: center;
   margin-bottom: 44px;
@@ -1216,7 +1207,6 @@ table tbody tr:nth-child(even) {
   line-height: 1.8;
 }
 
-/* ===== Form Container ===== */
 .contact-form {
   width: 100%;
   padding: 40px 38px;
@@ -1225,7 +1215,6 @@ table tbody tr:nth-child(even) {
   box-shadow: 0 4px 30px rgba(16, 36, 61, 0.07);
 }
 
-/* ===== Form Groups ===== */
 .form-group {
   display: flex;
   flex-direction: column;
@@ -1252,7 +1241,6 @@ table tbody tr:nth-child(even) {
   color: #f52222;
 }
 
-/* ===== Two Column Rows ===== */
 .form-row {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -1264,7 +1252,6 @@ table tbody tr:nth-child(even) {
   margin-bottom: 26px;
 }
 
-/* ===== Inputs and Select ===== */
 .contact-form input[type="text"],
 .contact-form input[type="email"],
 .contact-form input[type="tel"],
@@ -1320,7 +1307,6 @@ table tbody tr:nth-child(even) {
   box-shadow: 0 0 0 3px rgba(25, 120, 95, 0.1);
 }
 
-/* ===== Purpose Radio Options ===== */
 .purpose-group {
   padding: 0;
   border: 0;
@@ -1354,14 +1340,12 @@ table tbody tr:nth-child(even) {
   flex-shrink: 0;
 }
 
-/* ===== Message ===== */
 .contact-form textarea {
   min-height: 130px;
   resize: vertical;
   line-height: 1.8;
 }
 
-/* ===== Privacy Checkbox ===== */
 .privacy-option {
   display: flex;
   align-items: center;
